@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - PF航空词典</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2 {
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: .3em;
+        }
+        .lang-section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-section">
+        <h1>PF航空词典 隐私政策</h1>
+        <p><strong>生效日期：2025年9月1日</strong></p>
+        <p>我们非常重视您的隐私。本隐私政策旨在向您说明，PF航空词典（以下简称“本应用”）不会以任何形式收集、使用、存储或分享您的任何个人信息或数据。</p>
+
+        <h2>一、我们不收集任何信息</h2>
+        <p>我们向您郑重承诺，本应用不包含任何旨在收集用户信息的代码或第三方服务。具体而言，我们不收集：</p>
+        <ul>
+            <li><strong>个人身份信息</strong>：我们不要求您提供或以任何方式收集您的姓名、电子邮件地址、电话号码、地理位置等任何可用于识别您身份的信息。</li>
+            <li><strong>使用数据</strong>：本应用的所有功能均在您的设备上本地运行。我们不会收集您的搜索历史、收藏记录、使用频率、应用交互数据、IP 地址、设备标识符等任何与您使用行为相关的数据。</li>
+            <li><strong>设备信息</strong>：我们不会访问或收集您的设备型号、操作系统版本或任何其他硬件或软件信息。</li>
+        </ul>
+
+        <h2>二、信息的使用</h2>
+        <p>由于我们不收集任何信息，因此也就不存在使用、处理或分享您信息的情况。您的所有数据都完全属于您自己，并仅存储在您的本地设备上。</p>
+
+        <h2>三、第三方服务</h2>
+        <p>本应用不集成任何会收集您个人信息的第三方服务，例如广告网络、数据分析工具或社交媒体插件。</p>
+
+        <h2>四、联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问或建议，请随时通过以下方式与我们联系：</p>
+        <p>电子邮件：yiqunzhou2@gmail.com</p>
+    </div>
+
+    <hr>
+
+    <div class="lang-section">
+        <h1>Privacy Policy for PF航空词典</h1>
+        <p><strong>Effective Date: September 1, 2025</strong></p>
+        <p>We take your privacy seriously. This Privacy Policy explains that PF航空词典 ("the App") does not collect, use, store, or share any of your personal information or data in any form.</p>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <p>We solemnly swear that the App does not contain any code or third-party services designed to collect user information. Specifically, we do not collect:</p>
+        <ul>
+            <li><strong>Personal Information</strong>: We do not require or collect any personally identifiable information, such as your name, email address, phone number, or geographic location.</li>
+            <li><strong>Usage Data</strong>: All functions of the App run locally on your device. We do not collect your search history, favorited words, usage frequency, app interaction data, IP address, device identifiers, or any other data related to your usage.</li>
+            <li><strong>Device Information</strong>: We do not access or collect your device model, operating system version, or any other hardware or software information.</li>
+        </ul>
+
+        <h2>2. How Information Is Used</h2>
+        <p>Since we do not collect any information, we do not use, process, or share your information in any way. All your data belongs entirely to you and is stored only on your local device.</p>
+
+        <h2>3. Third-Party Services</h2>
+        <p>The App does not integrate any third-party services that would collect your personal information, such as advertising networks, analytics tools, or social media plugins.</p>
+
+        <h2>4. Contact Us</h2>
+        <p>If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us:</p>
+        <p>Email: yiqunzhou2@gmail.com</p>
+    </div>
+
+</body>
+</html>
