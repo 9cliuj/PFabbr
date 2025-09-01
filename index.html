@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PF航空词典 - 您的航空知识宝库</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap">
+    <style>
+        :root {
+            --primary-color: #004d99; /* 航空蓝 */
+            --secondary-color: #f0f4f8; /* 浅灰色背景 */
+            --text-color: #333;
+            --light-text-color: #666;
+            --card-bg: #fff;
+            --font-main: 'Roboto', 'Noto Sans SC', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-main);
+            color: var(--text-color);
+            background-color: var(--secondary-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 0 2rem;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--light-text-color);
+            margin-top: 0.5rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-top: 0;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .feature-card p {
+            color: var(--light-text-color);
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin: 4rem 0;
+        }
+
+        .call-to-action h2 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #003366;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--light-text-color);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            .feature-card {
+                padding: 1.5rem;
+            }
+            .call-to-action h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>PF航空词典</h1>
+            <p>您的航空知识宝库</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="features">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>海量词库</h3>
+                    <p>收录超过 **16,000** 条专业航空缩略词，覆盖民航领域的方方面面，让您随时随地都能找到所需信息。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>双向翻译</h3>
+                    <p>提供精准的 **中英翻译**，无论您是面对英文报告还是中文资料，都能轻松理解。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>智能分类</h3>
+                    <p>词库经过精心整理，支持按类别筛选。您可以快速浏览 **Airbus**、**Boeing**、**NOTAM**、**METAR** 等特定领域的缩略词，学习更具针对性。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>机场信息速查</h3>
+                    <p>内含全球主要机场的ICAO与IATA代码、国家地区等详细信息，是您出行和学习的得力助手。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <h2>立即下载，开启您的航空知识探索之旅！</h2>
+            <a href="#" class="download-btn">前往下载</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PF航空词典. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
